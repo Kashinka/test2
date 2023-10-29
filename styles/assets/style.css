@@ -59,6 +59,10 @@
 	border-radius: 5px;
 }
 
+.result {
+    color: red;
+}
+
 .textarea {
     margin-top: 5px;
     height: 20vh;
