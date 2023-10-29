@@ -31,13 +31,14 @@
 
                     <form class="form" name="form" action="./mail.php" method="post">
                         <h2>Написать нам</h2>
-                        <div class="name">Ваше имя*</div> <input class="input" name="name" type="text" />
-                        <div class="email">Электронная почта*</div> <input class="input" name="email" type="text" />
-                        <div class="topic">Тема сообщения</div> <input class="input" name="subjects" type="text" />
+                        <div class="name">Ваше имя*</div> <input class="input" name="name" type="text" id="name"/>
+                        <div class="email">Электронная почта*</div> <input class="input" name="email" type="text" id="email"/>
+                        <div class="topic">Тема сообщения</div> <input class="input" name="subjects" type="text" id="topic"/>
                         <div class="message">Текст сообщения:</div>
-                        <textarea class="textarea" name="message" cols="22" rows="5"></textarea>
+                        <textarea class="textarea" name="message" cols="22" rows="5" id="textarea"></textarea>
                         </p>
-                        <p><input class="submit" value="Отправить" type="submit" /></p>
+                        <p><input type="button" class="submit" value="Отправить" type="submit" /></p>
+                        <div id="result" class="result"></div>
                     </form>
 
                 </article>
