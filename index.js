@@ -43,7 +43,7 @@ function sendInfo() {
 
     } else {
 
-        document.getElementById('result').innerHTML = (`Добро пожаловать, ${name}!`);
+        window.location.replace("./feedback.html");
 
     }
 
