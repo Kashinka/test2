@@ -9,7 +9,7 @@ function checkFunction () {
     }
 }
 
-function register() {
+function sendInfo() {
 
     let name = document.getElementById('name').value;
 
