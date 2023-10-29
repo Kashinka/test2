@@ -23,47 +23,23 @@ function sendInfo() {
 
     if (name === '') {
 
-        document.getElementById('result').innerHTML = (`Ошибка!`);
+        document.getElementById('result').innerHTML = (`Ошибка, заполните все поля формы!`);
 
-    } else {
+    } else if (email === '') {
 
-        document.getElementById('result').innerHTML = (`Добро пожаловать, ${name}`);
+        document.getElementById('result').innerHTML = (`Ошибка, заполните все поля формы!`);
 
-    }
+    } else if (topic === '') {
 
-    if (email === '') {
+        document.getElementById('result').innerHTML = (`Ошибка, заполните все поля формы!`);
 
-        document.getElementById('result').innerHTML = (`Ошибка!`);
+    } else if (message === '') {
 
-    } else {
+        document.getElementById('result').innerHTML = (`Ошибка, заполните все поля формы!`);
 
-        document.getElementById('result').innerHTML = (`Добро пожаловать, ${name}`);
+    } else if (textarea === '') {
 
-    }
-
-    if (topic === '') {
-
-        document.getElementById('result').innerHTML = (`Ошибка!`);
-
-    } else {
-
-        document.getElementById('result').innerHTML = (`Добро пожаловать, ${name}`);
-
-    }
-
-    if (message === '') {
-
-        document.getElementById('result').innerHTML = (`Ошибка!`);
-
-    } else {
-
-        document.getElementById('result').innerHTML = (`Добро пожаловать, ${name}`);
-
-    }
-
-    if (textarea === '') {
-
-        document.getElementById('result').innerHTML = (`Ошибка!`);
+        document.getElementById('result').innerHTML = (`Ошибка, заполните все поля формы!`);
 
     } else {
 
