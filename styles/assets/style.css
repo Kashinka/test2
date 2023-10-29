@@ -5,7 +5,7 @@
     height: 100vh;
     background-color: #ffffff;
     font-family: "Open Sans", sans-serif;
-}
+} /* flex-контейнер */
 
 .header {
     display: flex;
@@ -15,32 +15,32 @@
     padding-left: 20px;
     height: 9vh;
     width: 100vw;
-}
+} /* хедер */
 
 .menu {
     display: flex;
     align-items: center;
-}
+} /* навигация */
 
 .menu a {
     margin: 10px;
     text-decoration: none;
     color: #000;
-}
+} /* ссылки навигации */
 .menu a:hover {
     color: rgb(179, 179, 179);
-}
+} /* ссылки навигации при наведении */
 
 .main {
     padding-left: 50px;
     width: 100vw;
     height: 100vh;
     background-color: #fdffe8;
-}
+} /* центральная секция */
 
 .section {
     display: flex;
-}
+} /* центральная секция (форма + текст) */
 
 .form {
     display: flex;
@@ -53,36 +53,36 @@
     height: 60vh;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 5px;
-}
+} /* форма обратной связи */
 
 .form input {
 	border-radius: 5px;
-}
-
-.result {
-    color: red;
-}
+} /* поля ввода формы */
 
 .textarea {
     margin-top: 5px;
     height: 20vh;
     border-radius: 5px;
-}
+} /* поле текста сообщения */
+
+.result {
+    color: red;
+} /* сообщение об ошибке */
 
 .section-message {
     padding-left: 10vw;
     width: 25vw;
     font: 30px bold;
     color: grey;
-}
+} /* секция текста страницы */
 
 .section-message-title {
     font-size: 110px;
-}
+} /* заголовок текста страницы */
 
 .section-message-text {
     margin-top: -10vh;
-}
+} /* текст страницы */
 
 .footer {
     display: flex;
@@ -91,4 +91,4 @@
     padding-right: 50px;
     height: 9vh;
     border-top: 1px solid #ccc;
-}
+} /* футер */
