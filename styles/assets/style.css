@@ -38,11 +38,16 @@
     background-color: #fdffe8;
 }
 
+.section {
+    display: flex;
+}
+
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 30px;
+    margin-left: 17vw;
     padding: 45px;
     width: 20vw;
     height: 60vh;
@@ -58,6 +63,21 @@
     margin-top: 5px;
     height: 20vh;
     border-radius: 5px;
+}
+
+.section-message {
+    padding-left: 10vw;
+    width: 25vw;
+    font: 30px bold;
+    color: grey;
+}
+
+.section-message-title {
+    font-size: 110px;
+}
+
+.section-message-text {
+    margin-top: -10vh;
 }
 
 .footer {
