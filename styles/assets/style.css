@@ -110,7 +110,7 @@
 
     .form {
         width: 30vw;
-        height: 50vh;
+        height: 70vh;
         background-color: #fdffe8;
     } /* форма обратной связи */
 
@@ -123,6 +123,9 @@
         margin-top: -20vh;
     } /* текст страницы */
 
+    .footer {
+        margin-top: 100vh;
+    } /* футер */
 }
 
 @media screen and (max-width: 767px) {
