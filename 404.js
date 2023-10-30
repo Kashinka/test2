@@ -9,6 +9,16 @@ function checkFunction () {
     }
 }
 
+function checkSpam(str) {
+
+    let str = document.getElementById('textarea').value;
+
+    let lowerStr = str.toLowerCase();
+
+    return lowerStr.includes('viagra') || lowerStr.includes('xxx');
+
+}
+
 function sendInfo() {
 
     let name = document.getElementById('name').value;
