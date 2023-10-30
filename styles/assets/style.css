@@ -92,3 +92,72 @@
     height: 9vh;
     border-top: 1px solid #ccc;
 } /* футер */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header-title {
+        font-size: 25px;
+    }
+
+    .main {
+        background-color: #ffffff;
+    }
+
+    .section {
+        margin-left: -10vw;
+    }
+
+    .form {
+        width: 30vw;
+        height: 170vh;
+        background-color: #fdffe8;
+    }
+
+    .section-message {
+        margin: -22vh 0 0 -20vh;
+        font-size: 22px;
+    }
+
+    .section-message-text {
+        margin-top: -20vh;
+    }
+
+    .footer {
+        margin-top: 150vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .header-title {
+        font-size: 20px;
+    }
+    
+    .main {
+        height: 150vh;
+        background-color: #ffffff;
+    }
+
+    .form, .section {
+        height: 140vh;
+    }
+
+    .section-form {
+        justify-content: center;
+        width: 100vw;
+        height: 150vh;
+    }
+
+    .form {
+        width: 50vw;
+        background-color: #fdffe8;
+    }
+
+    .section-message {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 110vh;
+    }
+}
