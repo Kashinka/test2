@@ -135,7 +135,7 @@
     } /* заголовок хедера */
     
     .main {
-        height: 70vh;
+        height: 60vh;
         background-color: #ffffff;
     } /* центральная секция */
 
@@ -146,7 +146,7 @@
     .section-form {
         justify-content: center;
         width: 100vw;
-        height: 70vh;
+        height: 60vh;
     } /* секция формы */
 
     .form {
@@ -158,7 +158,4 @@
         display: none;
     } /* секция текста страницы */
 
-    /* .footer {
-        margin-top: 110vh; */
-    } /* футер */
 }
