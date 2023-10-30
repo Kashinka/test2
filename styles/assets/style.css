@@ -158,7 +158,7 @@
         display: none;
     } /* секция текста страницы */
 
-    .footer {
-        margin-top: 110vh;
+    /* .footer {
+        margin-top: 110vh; */
     } /* футер */
 }
