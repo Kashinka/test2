@@ -135,6 +135,7 @@
     } /* заголовок хедера */
     
     .main {
+        justify-content: center;
         height: 60vh;
         background-color: #ffffff;
     } /* центральная секция */
