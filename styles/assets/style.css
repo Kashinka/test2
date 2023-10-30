@@ -140,17 +140,18 @@
     } /* центральная секция */
 
     .form, .section {
-        height: 40vh;
+        height: 50vh;
     } /* форма обратной связи,  центральная секция (форма + текст)  */
 
     .section-form {
         justify-content: center;
         width: 100vw;
-        height: 40vh;
+        height: 50vh;
     } /* секция формы */
 
     .form {
         width: 50vw;
+        height: 50vh;
         background-color: #fdffe8;
     } /* форма обратной связи */
 
