@@ -15,7 +15,7 @@ function checkSpam(str) {
 
     let lowerStr = str.toLowerCase();
 
-    return lowerStr.includes('viagra') || lowerStr.includes('xxx');
+    document.getElementById('result2').innerHTML = return lowerStr.includes('viagra') || lowerStr.includes('xxx');
 
 }
 
