@@ -32,14 +32,14 @@
                     <form class="form" name="form" action="./mail.php" method="post" id="form">
                         <h2>Написать нам</h2>
                         <div class="name">Ваше имя</div> <input class="input" name="name" type="text" id="name"
-                            oninput="checkFunction()" />
+                            oninput="checkName()" />
                         <div class="email">Электронная почта</div> <input class="input" name="email" type="text"
                             id="email" />
                         <div class="topic">Тема сообщения</div> <input class="input" name="subjects" type="text"
                             id="topic" />
                         <div class="message" id="message">Текст сообщения:</div>
-                        <textarea class="textarea" name="message" cols="22" rows="5" id="textarea" oninput="checkSpam(str)"><div id="result" class="result2"></div></textarea>
-                        <p><input type="button" class="submit" value="Отправить" onclick="sendInfo()" />
+                        <textarea class="textarea" name="message" cols="22" rows="5" id="textarea" oninput="checkSpam()"></textarea>
+                        <p><input type="button" class="submit" value="Отправить" onclick="checkSpaces()" />
                         </p>
                         <div id="result" class="result"></div>
                     </form>

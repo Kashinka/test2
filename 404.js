@@ -1,4 +1,5 @@
-function checkFunction () {
+// валидация имени
+function checkName () {
 
     const regexName = new RegExp('^[а-яА-Я]{1,30}|[a-zA-Z]{1,30}$');
     
@@ -9,17 +10,27 @@ function checkFunction () {
     }
 }
 
-function checkSpam(str) {
+// анти-спам
+function checkSpam() {
 
     let str = document.getElementById('textarea').value;
 
     let lowerStr = str.toLowerCase();
 
-    document.getElementById('result2').innerHTML = return lowerStr.includes('viagra') || lowerStr.includes('xxx');
+    if (lowerStr.includes('viagra') || lowerStr.includes('xxx')) {
+
+        document.getElementById('result').innerHTML = 'spam detected';
+
+    } else {
+
+        document.getElementById('result').innerHTML = '';
+
+    }
 
 }
 
-function sendInfo() {
+// валидация на пустые поля при отправке
+function checkSpaces() {
 
     let name = document.getElementById('name').value;
 
