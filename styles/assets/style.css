@@ -136,6 +136,7 @@
     
     .main {
         justify-content: center;
+        margin-left: 0;
         height: 60vh;
         background-color: #ffffff;
     } /* центральная секция */
