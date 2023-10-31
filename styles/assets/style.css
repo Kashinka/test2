@@ -143,6 +143,10 @@
         height: 50vh;
     } /* форма обратной связи,  центральная секция (форма + текст)  */
 
+    .form {
+        justify-content: center;
+    } /* форма обратной связи */
+
     .section-form {
         justify-content: center;
         width: 100vw;
