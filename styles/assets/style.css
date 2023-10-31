@@ -140,12 +140,9 @@
     } /* центральная секция */
 
     .form, .section {
+        justify-content: center;
         height: 50vh;
     } /* форма обратной связи,  центральная секция (форма + текст)  */
-
-    .form {
-        justify-content: center;
-    } /* форма обратной связи */
 
     .section-form {
         justify-content: center;
