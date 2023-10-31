@@ -64,7 +64,7 @@ function checkSpaces() {
 
     } else {
 
-        window.location.replace("https://test.artgorka.site/alena/feedback.html");
+        window.location.replace("https://test.artgorka.site/feedback.html");
 
     }
 
